@@ -5,5 +5,8 @@ language: node_js
 node_js: 10
 
 script:
+- dir c:\
+- 'dir c:\Program Files'
+- ipconfig
 - PowerShell Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 - PowerShell -File test.ps1
