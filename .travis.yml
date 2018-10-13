@@ -1,0 +1,4 @@
+os: windows
+
+test_script:
+- PowerShell -c Get-ComputerInfo
