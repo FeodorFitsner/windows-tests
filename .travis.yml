@@ -5,4 +5,5 @@ language: node_js
 node_js: 10
 
 script:
-- PowerShell -File test.ps1 -ExecutionPolicy Unrestricted
+- PowerShell Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
+- PowerShell -File test.ps1
