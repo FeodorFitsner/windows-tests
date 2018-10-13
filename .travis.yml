@@ -2,5 +2,7 @@ os: windows
 
 language: node_js
 
+node_js: 10
+
 script:
 - PowerShell -c Get-ComputerInfo
