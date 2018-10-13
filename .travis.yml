@@ -1,4 +1,6 @@
 os: windows
 
+language: node_js
+
 script:
 - PowerShell -c Get-ComputerInfo
